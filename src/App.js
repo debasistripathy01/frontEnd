@@ -5,6 +5,7 @@ import Form from "./SinglePages/ChakraGrid";
 import { ChildToParent } from "./SinglePages/ChildToParent";
 import { Counter } from "./SinglePages/Counter";
 import { Layout } from "./SinglePages/Layout";
+import { Login } from "./SinglePages/Login";
 import { ParentToChild } from "./SinglePages/ParentChild";
 import { Siblings } from "./SinglePages/childComponent";
 import { FetchData } from "./SinglePages/fetchPages";
@@ -21,7 +22,7 @@ function App() {
       {/* <AlertDialogue /> */}
       {/* <Layout /> */}
       {/* <ChildToParent /> */}
-      
+      <Login />
     </div>
   );
 }
