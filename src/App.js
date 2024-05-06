@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AirbnbCard from "./SinglePages/AirBnbCard";
+import { AlertDialogue } from "./SinglePages/AlertDialouge";
+import Form from "./SinglePages/ChakraGrid";
+import { ChildToParent } from "./SinglePages/ChildToParent";
+import { Counter } from "./SinglePages/Counter";
+import { Layout } from "./SinglePages/Layout";
+import { ParentToChild } from "./SinglePages/ParentChild";
+import { Siblings } from "./SinglePages/childComponent";
+import { FetchData } from "./SinglePages/fetchPages";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>React Home</h1>
+      {/* <ParentToChild /> */}
+      {/* <Counter /> */}
+      {/* <FetchData /> */}
+      {/* <Form />
+      <AirbnbCard /> */}
+      {/* <AlertDialogue /> */}
+      {/* <Layout /> */}
+      {/* <ChildToParent /> */}
+      
     </div>
   );
 }
